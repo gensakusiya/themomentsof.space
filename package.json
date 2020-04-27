@@ -10,5 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/gensakusiya/themomentsof.space.git"
   },
-  "author": "Artyom Prikhodko"
+  "author": "Artyom Prikhodko",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
 }
