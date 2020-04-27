@@ -1,0 +1,14 @@
+{
+  "name": "themomentsof.space",
+  "version": "0.0.1",
+  "description": "Moments of everything",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gensakusiya/themomentsof.space.git"
+  },
+  "author": "Artyom Prikhodko"
+}
