@@ -1,6 +1,6 @@
 # The Moments of
 
-[](https://github.com/gensakusiya/themomentsof.space/workflows/Deploy/badge.svg)
+![](https://github.com/gensakusiya/themomentsof.space/workflows/Deploy/badge.svg)
 
 Moments of everything
 
