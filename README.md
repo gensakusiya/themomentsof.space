@@ -5,4 +5,4 @@
 Moments of everything
 
  ---
- Licensed under [CC BY-NC-ND 4.0](LICENSE)
+ Licensed under [CC BY-NC-ND 4.0](LICENSE.md)
