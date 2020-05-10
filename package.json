@@ -4,9 +4,13 @@
   "description": "Moments of everything",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "start": "eleventy --serve"
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:11ty": "eleventy --serve --quiet",
+    "dev:rollup": "rollup -c -w",
+    "clean": "rimraf dist",
+    "build": "NODE_ENV=production npm-run-all clean -p build:*",
+    "build:11ty": "eleventy",
+    "build:rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
