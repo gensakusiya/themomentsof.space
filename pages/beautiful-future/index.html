@@ -51,28 +51,23 @@
 <body>
 
 <style>
-    html,
     body {
-        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
     }
 
-    body {
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
+    .white {
+        background-color: #fff;
     }
 
-    h1 {
-        opacity: .7;
-        user-select: none;
+    .blue {
+        background-color: #0073D2;
     }
 </style>
 
-<h1>
-    in Progress ...
-</h1>
+<div class="white"></div>
+<div class="blue"></div>
+<div class="white"></div>
 
 
 <script type="module" src="/scripts/main.bundle.js"></script>
